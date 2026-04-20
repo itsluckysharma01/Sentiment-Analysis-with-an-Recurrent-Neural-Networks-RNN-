@@ -18,13 +18,13 @@ An end-to-end NLP project that classifies Swiggy customer reviews as Positive or
 
 ## Project Snapshot
 
-| Item | Details |
-|---|---|
-| Goal | Binary sentiment classification (Positive/Negative) |
-| Model | `Embedding -> SimpleRNN -> Dense(sigmoid)` |
-| Framework | TensorFlow / Keras |
-| Data Source | Swiggy customer reviews (`swiggy.csv`) |
-| Notebook | `Sentiment Analysis with an Recurrent Neural Networks (RNN).ipynb` |
+| Item        | Details                                                            |
+| ----------- | ------------------------------------------------------------------ |
+| Goal        | Binary sentiment classification (Positive/Negative)                |
+| Model       | `Embedding -> SimpleRNN -> Dense(sigmoid)`                         |
+| Framework   | TensorFlow / Keras                                                 |
+| Data Source | Swiggy customer reviews (`swiggy.csv`)                             |
+| Notebook    | `Sentiment Analysis with an Recurrent Neural Networks (RNN).ipynb` |
 
 <details>
 <summary><strong>What this project does</strong></summary>
@@ -77,11 +77,11 @@ Review Text
 
 - Source: `https://raw.githubusercontent.com/itsluckysharma01/Datasets/refs/heads/main/swiggy.csv`
 - Used fields:
-	- `Review`
-	- `Avg Rating`
+  - `Review`
+  - `Avg Rating`
 - Label rule:
-	- `Avg Rating >= 3.5 -> Positive (1)`
-	- `Avg Rating < 3.5 -> Negative (0)`
+  - `Avg Rating >= 3.5 -> Positive (1)`
+  - `Avg Rating < 3.5 -> Negative (0)`
 
 <details>
 <summary><strong>Preprocessing used in notebook</strong></summary>
